@@ -63,6 +63,17 @@
     
 /* Tablet */
 @media screen and (min-width: 425px){
+    .Hero{
+        padding: 2%;
+        margin: 0%;
+        background-image: url(file:///Users/user/Downloads/Education/CodeSpace/digital-resume/Media/Background1.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat; 
+        text-align: center;
+        color: aliceblue;
+        text-shadow: 2rem;
+        
+    }
     .Nav-links{ 
                display: grid; 
                grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -89,7 +100,18 @@
 
 
 /* Desktop */
-@media screen and (min-width: 1440px){
+@media screen and (min-width: 1024px){
+    .Hero{
+        padding: 2%;
+        margin: 0%;
+        background-image: url(file:///Users/user/Downloads/Education/CodeSpace/digital-resume/Media/Background2.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat; 
+        text-align: center;
+        color: aliceblue;
+        text-shadow: 2rem;
+        
+    }
     .Nav-links{ 
                display: grid; 
                grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
