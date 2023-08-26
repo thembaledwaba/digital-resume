@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Themba Ledwaba Resume</title> <!-- Title of the resume to be deplayed in browser -->
+    <link rel="icon" href="/Users/user/Downloads/Education/CodeSpace/digital-resume/Media/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css"> <!-- Connecting to stylesheet used -->
+</head>
+    <body>
+        <!-- Hero Section -->
+        <section class="Hero">
+            <aside class="Profil-Pic">
+                <!-- This element contains my profile image -->
+                <picture>
+                   <img src="./Media/Themba Pro Pic.png" alt="Themba Profile Image" width="200" height="200">
+                </picture>
+            </aside>
+            <!-- This section has my name, work, Introductory statement and useful links -->
+            <header id="top"> <!-- id to be used for back to top button -->
+                <h1>Themba Ledwaba</h1>
+                    <p>Digital & Creative Specialist | Pharmaceutical Industry 
+                     <br>
+                     Passionate about driving digital fitness. 
+                     <br>
+                     Skilled in 
+                     <br>
+                     Marketing | Sales | Graphic design.
+                    </p>
+            </header>
+        </section>
+        <!-- Navigtion Links Used Flex box  -->
+        <a id="back-to-top" href="#top">
+            <button >
+                &uarr;
+            </button>
+        </a>
+        <section class="Nav-links">
+            <div class="Nav-1">
+                <a class="Nav-links" href="#Education">Education</a>
+            </div>  
+            <div class="Nav-2">
+                <a class="Nav-links" href="#Experience">Experience</a> 
+            </div>  
+            <div class="Nav-3">
+                <a class="Nav-links" href="#Skills">Skills</a></a> 
+            </div>   
+            <div class="Nav-4">
+                <a class="Nav-links" href="#Contact">Contact</a></a> 
+            </div>  
+            <div class="Nav-5">
+                <a class="Nav-links" href="https://github.com/thembaledwaba" target="_blank">GitHub</a></a> 
+            </div> 
+        </section>
+        <section class="core">
+            <!-- Education Section -->
+            <h2 id="Education">Education</h2>
+                <div class="Grid-Education"></div>
+                    <div class="Qualification-1">
+                        <h3>Qualification 1</h3>
+                    </div>
+                    <div class="Q1-Details">
+                        <p>Biotechnology B.Tech - University of Johannesburg</p>
+                    </div>
+                    <div class="Qualification-2">
+                        <h3>Qualification 2</h3>
+                    </div>
+                    <div class="Q2-Details">
+                        <p>Digital Transformation - Gibs</p>
+                    </div>
+                </div>
+            <!-- Experience Section Used CSS Grid to make two rows -->
+            <h2 id="Experience">Experience</h2>
+                <div class="Grid Experience">
+                    <div class="Experience-1">
+                        <h3>Pharmaceutical Sales Representative <br> MSD | 2015 to 2017 | </h3>
+                    </div>  
+                    <ul class="E1-Details">
+                        <li> Help grow the companys products market share.</li>
+                        <li> Meeting targets; calls, sales and administrative as set by
+                             the company.</li>
+                        <li> Conduct CPD and CME events.</li>
+                        <li> Establishing and sustaining great customer relations.</li>
+                        <li> Develop sales strategies within my territory action plan.</li>
+                        <li> Research the territory and establish knowledge to aid my
+                             sales strategies.</li>
+                        <li> Evaluate customer needs and best positioning my
+                             products.</li>  
+                        <li> Report feedback, field intelligence on the market, my
+                             portfolio of products and the customer.
+                        </li>
+                    </ul>
+                    <div class="Experience-2">
+                        <h3>Digital and Creative Specialist <br> Organon | Midrand | 2022 to Present</h3>
+                    </div>  
+                    <ul class="E1-Details">
+                        <li> Empowered the company to take ownership of
+                             the content creation.</li>
+                        <li> Created high engagement for internal and
+                             external social media platforms.</li>
+                        <li> Analysed data to inform decisions about our
+                             digital strategy.</li>
+                        <li> Maximised the company's use of paid
+                             platforms.</li>
+                        <li> Led a team in the development of internal
+                             streaming with green screen capability and the
+                             expansion of internal and external content
+                             output. (being customer-focused)</li>
+                        <li> Developed digital solution tools for internal
+                             customers.</li>
+                        </ul>
+                </div>
+
+            <!-- Skills Section -->
+            <h2 id="Skills">Skills</h2>
+                <ul>
+                    <li>Graphic Design - Adobe Creative Suite | Final Cut Pro</li>
+                    <li>Marketing - B2B | Digital Marketing | Content Creator</li>
+                    <li>Sales - Face to Face | Virtual</li>
+                    <li>Leadership - Agility | Problem Solving | People Management</li>
+                </ul>
+        </section>
+         <!-- Contact Details Section -->
+        <footer class="contact">
+            
+            <h2 id="Contact">Contact</h2>
+                <a href="https://www.linkedin.com/in/themba-ledwaba-64389224/"> LinkedIn</a>
+                <br>
+                <p>Cellphone: 0676104835</p>
+                <p>Email: matloshal@gmail.com</p>
+                <br>
+                <form action="https://formsubmit.co/matloshal@gmail.com" method="POST">
+                    <input type="email" name="email" placeholder="Enter Email Address" required>
+                    <br>
+                    <select type="subject" name="_subject" value="Select Subject" required>
+                        <option value="Interview Date">Interview Date</option>
+                        <option value="Request More Information">Request More Information</option>
+                        <option value="Regret">Regret</option>
+                    </select>
+                    <br>
+                    <textarea name="message" id="text" cols="50" rows="20" placeholder="Type your message here..." optional></textarea>
+                    <br>
+                    <input class="submit" type="submit" value="Submit">
+                </form>
+            
+            
+    </footer>
+    </body>
+</html>
